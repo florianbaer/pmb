@@ -1,4 +1,4 @@
-## Ziele für Swissgrovers
+## Ziele für Swissgroovers
 
 #### PMB Team 12
 
@@ -8,8 +8,8 @@ Aufgabe B
 -  **Spezifisch:**
 -  **Messbar:**
 -  **Angemessen:**
--  **Realistisch:**
--  **Terminiert**
+-  **Realistisch:** 
+-  **Terminiert:** Innerhalb von 6 Monaten produktiver Webshop.
   
 
 2. Online Flohmi mit flexibler erweiterung von Kategorien inkl. Forum und Gallerie
@@ -18,7 +18,7 @@ Aufgabe B
 -  **Messbar:**
 -  **Angemessen:**
 -  **Realistisch:**
--  **Terminiert**
+-  **Terminiert:**
 
 
 
@@ -29,4 +29,4 @@ Lieferinfrastruktur für Versand innerhalb weniger Stunden.
 -  **Messbar:**
 -  **Angemessen:**
 -  **Realistisch:**
--  **Terminiert**
+-  **Terminiert:**
