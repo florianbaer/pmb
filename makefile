@@ -1,12 +1,15 @@
-prog: outputdir ziele.pdf
+prog: outputdir ziele.pdf meilensteine.pdf
 	echo "Done"
 
 outputdir:
-		mkdir output
+	mkdir output
 
+meilensteine.pdf: src/meilensteine.md
+	pandoc src/meilensteine.md -f markdown -o output/meilensteine.pdf
 
-ziele.pdf: ziele.md
-		pandoc ziele.md -f markdown -o output/ziele.pdf
+ziele.pdf: src/ziele.md
+	pandoc src/ziele.md -f markdown -o output/ziele.pdf
+
 clean:
 	rm -rf output/
 #foo.o: foo.c
