@@ -1,4 +1,4 @@
-prog: outputdir ziele.pdf meilensteine.pdf
+prog: outputdir ziele.pdf meilensteine.pdf Projektcontrolling.pdf
 	echo "Done"
 
 outputdir:
@@ -10,6 +10,9 @@ meilensteine.pdf: src/meilensteine.md
 ziele.pdf: src/ziele.md
 	pandoc src/ziele.md -f markdown -o output/ziele.pdf
 
+Projektcontrolling.pdf: src/Projektcontrolling.md
+	pandoc src/Projektcontrolling.md -f markdown -o output/Projektcontrolling.pdf
+	
 clean:
 	rm -rf output/
 #foo.o: foo.c
